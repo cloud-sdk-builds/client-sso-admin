@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-sso-admin`](https://www.npmjs.com/package/@aws-sdk/client-sso-admin/v/3.1137.0).
+[`@aws-sdk/client-sso-admin`](https://www.npmjs.com/package/@aws-sdk/client-sso-admin/v/3.1138.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-sso-admin - [https://cloud-sdk-builds.github.io/?sdk=client-sso-admin](https://cloud-sdk-builds.github.io/?sdk=client-sso-admin)
-- @aws-sdk/client-sso-admin v3.1137.0 - [https://cloud-sdk-builds.github.io/?sdk=client-sso-admin&version=3.1137.0](https://cloud-sdk-builds.github.io/?sdk=client-sso-admin&version=3.1137.0)
+- @aws-sdk/client-sso-admin v3.1138.0 - [https://cloud-sdk-builds.github.io/?sdk=client-sso-admin&version=3.1138.0](https://cloud-sdk-builds.github.io/?sdk=client-sso-admin&version=3.1138.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sso-admin@3.1137.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sso-admin@3.1138.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-LeWZuXV8dfhHAH7ZRpxbRodeViDDXa9XtFSMb+koK58qYnLhHbm1bUJp448msih0
+sha384-ubfEhG9NRW6X9qEI7+85Jx30vLnvzK8dwnMD1reyVu4FU+uBwrgbKlryqpHZrqiq
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-sso-admin": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sso-admin@3.1137.0/index.min.mjs"
+            "@aws-sdk/client-sso-admin": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sso-admin@3.1138.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sso-admin@3.1137.0/index.min.mjs": "sha384-LeWZuXV8dfhHAH7ZRpxbRodeViDDXa9XtFSMb+koK58qYnLhHbm1bUJp448msih0"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sso-admin@3.1138.0/index.min.mjs": "sha384-ubfEhG9NRW6X9qEI7+85Jx30vLnvzK8dwnMD1reyVu4FU+uBwrgbKlryqpHZrqiq"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-sso-admin": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sso-admin@3.1137.0/index.min.mjs"
+                        "@aws-sdk/client-sso-admin": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sso-admin@3.1138.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sso-admin@3.1137.0/index.min.mjs": "sha384-LeWZuXV8dfhHAH7ZRpxbRodeViDDXa9XtFSMb+koK58qYnLhHbm1bUJp448msih0"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sso-admin@3.1138.0/index.min.mjs": "sha384-ubfEhG9NRW6X9qEI7+85Jx30vLnvzK8dwnMD1reyVu4FU+uBwrgbKlryqpHZrqiq"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1137.0`)
+* Always pin to a specific version (`@3.1138.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-sso-admin/blob/refs/tags/3.1137.0/LICENSE
+https://github.com/cloud-sdk-builds/client-sso-admin/blob/refs/tags/3.1138.0/LICENSE
 ```
 
 ---
